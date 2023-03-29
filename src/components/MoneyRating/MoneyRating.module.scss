@@ -1,0 +1,35 @@
+.ratingList {
+  width: 100%;
+  padding: 20px;
+  .ratingItem {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    .ratingItemNumber {
+      font-size: 18px;
+      font-weight: 100;
+      width: 30%;
+    }
+    .ratingItemAmount {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+  .ratingItemActive {
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    padding: 5px;
+    border-radius: 5px;
+    .ratingItemNumber {
+      font-size: 18px;
+      font-weight: 100;
+      width: 30%;
+    }
+    .ratingItemAmount {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.timerWrapper {
+  height: 50%;
+  position: relative;
+  .timer {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+
+.questionWrapper {
+  height: 50%;
+}
